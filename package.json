@@ -1,0 +1,11 @@
+{
+  "name": "Getpic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "coffee_sw <897884964@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "merge-images": "^2.0.0"
+  }
+}

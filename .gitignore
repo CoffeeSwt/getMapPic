@@ -1,0 +1,16 @@
+/assets/*.jpg
+/assets/*.png
+
+/build/*.jpg
+/build/*.png
+
+/col/*.jpg
+/col/*.png
+
+/namalsk/*.jpg
+/namalsk/*.png
+
+/namalskCol/*.jpg
+/namalskCol/*.png
+
+node_modules
