@@ -40,7 +40,7 @@ const makeColFile = async (col) => {
   });
   const data = b64.replace(/^data:image\/\w+;base64,/, "");
   const buffer = Buffer.from(data, "base64");
-  fs.writeFile(`./namalskCol/c${col}.jpg`, buffer, (err) => {
+  fs.writeFile(`./namalskCol/c${col}.png`, buffer, (err) => {
     if (err) throw err;
     console.log(`col ${col} has been saved!`);
   });
